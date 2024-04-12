@@ -1,0 +1,102 @@
+:root{
+    --body-bg-color:  hsl(30, 54%, 90%);
+    --scondary-bg-color:hsl(332, 51%, 32%);
+    --card-bg: hsl(30, 18%, 87%);
+    --brown-color:hsl(30, 10%, 34%);
+    --dark:hsl(24, 5%, 18%);
+    --white:hsl(0, 0%, 100%);
+    --rose-white:hsl(330, 100%, 98%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    background-color: var(--body-bg-color);
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: "Young Serif", serif;
+    
+}
+
+p{
+    font-family: "Outfit", sans-serif;
+    line-height: 1.5;
+}
+ol li,
+ul li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+h1,h2,h3,h4,h5,h6{
+    line-height: 1.5;
+}
+
+h1{
+    font-size: 48px;
+    color: var(--dark);
+    font-weight: 600;
+}
+
+h2{
+    font-size: 40px;    
+}
+
+h3{
+    font-size: 36px;
+}
+
+h4{
+    font-size: 30px;
+    color: var(--scondary-bg-color);
+}
+
+h5{
+    font-size: 25px;
+}
+ 
+h6{
+    font-size: 18px;
+}
+
+.main-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+    padding: 0 15px;
+}
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: var(--white);
+    padding: 20px;
+    width: 100%;
+    border-radius: 12px;
+}
+
+.page-tilte {
+    margin: 20px 0;
+}
+
+
+.prepration-section {
+    padding: 20px;
+    background: var(--rose-white);
+    margin: 20px 0;
+    border-radius: 10px;
+}
+.prepration-section h4{
+    margin-bottom: 20px;
+}
